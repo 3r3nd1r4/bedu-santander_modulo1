@@ -1,0 +1,18 @@
+// ------ EVIDENCIAS --------------
+// Alumnx : Eréndira Celis Acosta
+// ere.is.not.here@gmail.com
+// Módulo 1 - Sesión 4
+// Reto #2:
+// Usando la base de datos sample_mflix, agrega 
+// proyeccciones, filtros, ordenamientos y límites 
+// que permitan contestar las siguientes preguntas.
+// c) ¿Cuál es el máximo número de comentarios en una película?
+{
+ project: {
+  num_mflix_comments: 1
+ },
+ sort: {
+  num_mflix_comments: -1
+ },
+ limit: 1
+}

@@ -1,0 +1,14 @@
+// ------ EVIDENCIAS --------------
+// Alumnx : Eréndira Celis Acosta
+// ere.is.not.here@gmail.com
+// Módulo 1 - Sesión 4
+// Reto #2:
+// Usando la base de datos sample_mflix, agrega 
+// proyeccciones, filtros, ordenamientos y límites 
+// que permitan contestar las siguientes preguntas.
+// a) ¿Qué comentarios ha hecho Greg Powell?
+{
+ filter: {
+  name: 'Greg Powell'
+ }
+}

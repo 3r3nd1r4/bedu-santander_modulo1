@@ -1,0 +1,12 @@
+// ------ EVIDENCIAS --------------
+// Alumnx : Eréndira Celis Acosta
+// ere.is.not.here@gmail.com
+// Módulo 1 - Sesión 4
+// Reto #1:
+// Usando la base de datos sample_mflix, proyecta los datos que se solicitan.
+// b) Título, elenco y año de cada película.
+{
+ title: 1,
+ cast: 1,
+ year: 1
+}
