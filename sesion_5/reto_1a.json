@@ -1,0 +1,19 @@
+// ------ EVIDENCIAS --------------
+// Alumnx : Eréndira Celis Acosta
+// ere.is.not.here@gmail.com
+// Módulo 1 - Sesión 5
+// Reto #1:
+// Usando la base de datos sample_airbnblistingsAndReviews, realiza los siguientes filtros:
+// a) Propiedades que no permitan fiestas.
+{
+ filter: {
+  $or: [
+   {
+    house_rules: RegExp('no parties', i)
+   },
+   {
+    house_rules: RegExp('any parties', i)
+   }
+  ]
+ }
+}

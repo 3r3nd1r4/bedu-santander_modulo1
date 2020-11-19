@@ -1,0 +1,12 @@
+// ------ EVIDENCIAS --------------
+// Alumnx : Eréndira Celis Acosta
+// ere.is.not.here@gmail.com
+// Módulo 1 - Sesión 5
+// Reto #1:
+// Usando la base de datos sample_airbnblistingsAndReviews, realiza los siguientes filtros:
+// c) Propiedades que no permitan fumadores.
+{
+ filter: {
+  house_rules: RegExp('no smoking', i)
+ }
+}
